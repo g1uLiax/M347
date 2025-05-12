@@ -34,6 +34,11 @@
 `docker rmi nginx`<br>
 
 # C.)
+<img width="914" alt="image" src="https://github.com/user-attachments/assets/488abcaa-8014-4ffe-af65-29324d0684e5" />
+
+# D.)
+
+
 
 
 
