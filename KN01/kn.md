@@ -19,5 +19,5 @@
 <img width="1127" alt="image" src="https://github.com/user-attachments/assets/92dbd4f6-f5b4-4039-9cee-f25169915eae" /><br>
 
 `docker run -d ubuntu` pulls the image from the repository and creates a container. The container couldnt be started since we didnt specify a port. Without the missing parameters the container runs detached.<br>
-`docker run -it ubuntu` starts the container and you enter the its command line, when exiting you also stop the container. This happens when you dont add the `-d` to run the container detached. <br>
+`docker run -it ubuntu` starts the container and you enter the its command line, when exiting you also stop the container. It stands for interactive terminal. <br>
 
