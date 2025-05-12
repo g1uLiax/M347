@@ -15,6 +15,7 @@
 `docker pull nginx`<br>
 `docker create --name nginx -p 8081:80 nginx`<br>
 `docker start nginx`<br>
+
 <img width="1127" alt="image" src="https://github.com/user-attachments/assets/92dbd4f6-f5b4-4039-9cee-f25169915eae" /><br>
 
 `docker run -d ubuntu` pulls the image from the repository and creates a container. The container couldnt be started since we didnt specify a port. Without the missing parameters the container runs detached.<br>
