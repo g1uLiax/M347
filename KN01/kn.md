@@ -21,3 +21,17 @@
 `docker run -d ubuntu` pulls the image from the repository and creates a container. The container couldnt be started since we didnt specify a port. Without the missing parameters the container runs detached.<br>
 `docker run -it ubuntu` starts the container and you enter the its command line, when exiting you also stop the container. It stands for interactive terminal. <br>
 
+<img width="1127" alt="image" src="https://github.com/user-attachments/assets/3423ae39-2181-4238-ad1e-c19c23aed187" /><br>
+`docker ps`<br>
+`docker stop nginx` <br>
+
+`docker rm -f $(docker ps -aq)` remove all containers, -f for force stop<br>
+<img width="984" alt="image" src="https://github.com/user-attachments/assets/07064f48-1715-46b1-95fc-1346b66171e0" /><br>
+
+<img width="655" alt="image" src="https://github.com/user-attachments/assets/35087573-c42b-48d4-901e-7574c6ea9668" /><br>
+`docker images`<br>
+`docker rmi nginx`<br>
+
+
+
+
