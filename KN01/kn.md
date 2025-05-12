@@ -33,6 +33,9 @@
 `docker images`<br>
 `docker rmi nginx`<br>
 
+# C.)
+
+
 
 
 
