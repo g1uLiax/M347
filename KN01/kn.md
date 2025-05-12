@@ -37,7 +37,9 @@
 <img width="914" alt="image" src="https://github.com/user-attachments/assets/488abcaa-8014-4ffe-af65-29324d0684e5" />
 
 # D.)
-
+tag and push a dockerimage to a repository. <br>
+`docker tag nginx:latest g1uliax/m347:nginx` <br>
+`docker push g1uliax/m347:nginx` <br>
 
 
 
