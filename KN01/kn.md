@@ -27,6 +27,7 @@
 
 `docker rm -f $(docker ps -aq)` remove all containers, -f for force stop<br>
 <img width="984" alt="image" src="https://github.com/user-attachments/assets/07064f48-1715-46b1-95fc-1346b66171e0" /><br>
+`docker rm name`<br>
 
 <img width="655" alt="image" src="https://github.com/user-attachments/assets/35087573-c42b-48d4-901e-7574c6ea9668" /><br>
 `docker images`<br>
