@@ -38,8 +38,11 @@
 
 # D.)
 tag and push a dockerimage to a repository. <br>
-`docker tag nginx:latest g1uliax/m347:nginx` <br>
-`docker push g1uliax/m347:nginx` <br>
+`docker tag nginx:latest g1uliax/m347:nginx` nginx images is now named g1uliax/m347 with the tag nginx  <br>
+`docker push g1uliax/m347:nginx` push the image with the tag nginx to the repository <br>
+
+<img width="912" alt="image" src="https://github.com/user-attachments/assets/f2d2c774-9acb-424a-8d4e-c99abceeb435" /><br>
+
 
 
 
