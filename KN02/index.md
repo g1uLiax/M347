@@ -10,7 +10,7 @@
 `docker run -d --name kn02a -p 80:80 g1uliax/m347:kn02a` <br>
 `docker push g1uliax/m347:kn02a` <br>
 
-```
+```Dockerfile
 FROM nginx    
 # use the latest nginx image
 WORKDIR /usr/share/nginx/html/
@@ -23,3 +23,15 @@ EXPOSE 	80
 ```
 
 # B.)
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/f5e104ba-7c98-4b73-87d7-c29137a672ba" /><br>
+
+```Dockerfile
+FROM mariadb
+
+ENV MARIADB_ROOT_PASSWORD=1234
+ENV MARIADB_DATABASE=m346db
+ENV MARIADB_USER=admin
+ENV MARIADB_PASSWORD=1234
+
+EXPOSE 3306
+```
