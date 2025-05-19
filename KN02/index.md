@@ -23,6 +23,7 @@ EXPOSE 	80
 ```
 
 # B.)
+## Database
 <img width="610" alt="image" src="https://github.com/user-attachments/assets/f5e104ba-7c98-4b73-87d7-c29137a672ba" /><br>
 
 `docker build -t g1uliax/m347:kn02b-db -f Dockerfile-db .` <br>
@@ -38,3 +39,5 @@ ENV MARIADB_PASSWORD=1234
 
 EXPOSE 3306
 ```
+
+## Webserver
