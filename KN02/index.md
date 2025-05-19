@@ -1,6 +1,11 @@
 # A.)
 
-<img width="832" alt="image" src="https://github.com/user-attachments/assets/61372d10-300e-4a18-a2aa-f8f6aa6d3368" />
+<img width="832" alt="image" src="https://github.com/user-attachments/assets/61372d10-300e-4a18-a2aa-f8f6aa6d3368" /><br>
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/26107287-8c43-4f4f-9c1c-ac57a85296c6" /><br>
+
+`docker build -t kn02a -f Dockerfile .` <br>
+`docker run -d --name kn02a -p 80:80 kn02a` <br>
+
 
 ```
 FROM nginx    
