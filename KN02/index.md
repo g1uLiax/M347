@@ -21,3 +21,5 @@ EXPOSE 	80
 # expose the port 80
 
 ```
+
+# B.)
