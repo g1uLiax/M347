@@ -25,6 +25,9 @@ EXPOSE 	80
 # B.)
 <img width="610" alt="image" src="https://github.com/user-attachments/assets/f5e104ba-7c98-4b73-87d7-c29137a672ba" /><br>
 
+`docker build -t g1uliax/m347:kn02b-db -f Dockerfile-db .` <br>
+`docker run -d --name kn02-db -p 3306:3306 g1uliax/m347:kn02b-db` <br>
+
 ```Dockerfile
 FROM mariadb
 
