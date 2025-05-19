@@ -27,7 +27,7 @@ EXPOSE 	80
 <img width="610" alt="image" src="https://github.com/user-attachments/assets/f5e104ba-7c98-4b73-87d7-c29137a672ba" /><br>
 
 `docker build -t g1uliax/m347:kn02b-db -f Dockerfile-db .` <br>
-`docker run -d --name kn02-db -p 3306:3306 g1uliax/m347:kn02b-db` <br>
+`docker run -d --name kn02-db --network kn02-net -p 3306:3306 g1uliax/m347:kn02b-db` <br>
 
 ```Dockerfile
 FROM mariadb
@@ -41,3 +41,18 @@ EXPOSE 3306
 ```
 
 ## Webserver
+<img width="442" alt="image" src="https://github.com/user-attachments/assets/9d17130b-5492-444c-ab3e-8110d07a5b1a" /><br>
+<img width="1127" alt="image" src="https://github.com/user-attachments/assets/85f0ce2d-aa90-449d-b274-e6c129c48a45" /><br>
+
+
+`docker build -t g1uliax/m347:kn02b-web -f Dockerfile-web .` <br>
+`docker run -d --name kn02-web --network kn02-net -p 80:80 g1uliax/m347:kn02b-web` <br>
+
+```Dockerfile
+FROM php:8.0-apache
+
+RUN docker-php-ext-install mysqli
+COPY src/ /var/www/html/
+
+EXPOSE 80
+```
