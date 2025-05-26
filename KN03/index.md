@@ -11,3 +11,6 @@
 ### busybox3
 <img width="464" alt="image" src="https://github.com/user-attachments/assets/e3cd44e3-bb67-49cb-86b2-ab90db0ac674" /><br>
 
+KN02: <br>
+The networks were linked, the second container created was linked to another. As i read online this feature is older and is eventually removed since the networking technology of docker can pretty much replace it and also offers more. The two containers were in the same bridge network and maybe there was a subnet made for it.
+Linking networks is easy since one doesnt have to create a network and doesnt have to set a subnet and ip-range, which makes it a bit more beginner friendly. But creating a network gives better a better overview and more customization.
