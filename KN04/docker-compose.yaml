@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  web: 
+    build: 
+      context: .
+      dockerfile: Dockerfile-web
+    container_name: m347-kn04a-web
+    ports:
+      - 80:80
+    networks:
+      - kn04a
+
+  db: 
+    image: mariadb:latest
+    container_name: m347-kn04a-db
+    ports:
+      - 3306:3306
+    environment:
+      MARIADB_ROOT_PASSWORD: 1234
+      MARIADB_DATABASE: m347db
+      MARIADB_USER: admin
+      MARIADB_PASSWORD: 1234
+    networks:
+      - kn04a
+      
+networks:
+  kn04a:
+    name: kn04a
+    driver: bridge
+    ipam: 
+      config:
+        - subnet: 172.10.0.0/16
+          ip_range: 172.10.5.0/24
+          gateway: 172.10.5.254
+
+  
+
+
