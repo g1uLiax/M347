@@ -1,6 +1,6 @@
 ## KN04
 
-Builds, (re)creates, starts, and attaches the services to a container
+Builds, (re)creates, starts, and attaches the services to a container<br>
 <img width="522" alt="image" src="https://github.com/user-attachments/assets/9342ff17-02c5-4e17-b9db-f995ceacfb22" /><br>
 
 Parses the docker-compose.yml file<br>
