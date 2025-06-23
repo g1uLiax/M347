@@ -30,6 +30,30 @@ echo "Grüsse von Container 2 – $(date)" >> /data/log.txt
 cat /data/log.txt
 ```
 # C.)
+```
+version: '3.9'
+services:
+  nginx1:
+    image: nginx
+    volumes:
+      - type: volume
+        source: shared-volume
+        target: /shared
+      - type: bind
+        source: ./bindvol
+        target: /usr/share/nginx/html
+      - type: tmpfs
+        target: /tmpfs
+  
+  nginx2: 
+    image: nginx
+    volumes:
+      - shared-volume:/shared
+
+volumes:
+  shared-volume:
+```
+
 ## Start
 <img width="887" alt="image" src="https://github.com/user-attachments/assets/60c584b4-d32f-4f94-a3ee-386df114642c" />
 
