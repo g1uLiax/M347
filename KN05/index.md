@@ -29,3 +29,14 @@ Container 2:
 echo "Grüsse von Container 2 – $(date)" >> /data/log.txt
 cat /data/log.txt
 ```
+# C.)
+## Start
+<img width="887" alt="image" src="https://github.com/user-attachments/assets/60c584b4-d32f-4f94-a3ee-386df114642c" />
+
+## Mount nginx1
+
+<img width="892" alt="image" src="https://github.com/user-attachments/assets/06c62a4d-05cf-4aca-9241-1b8904d4c753" />
+
+## Mount nginx2
+
+<img width="894" alt="image" src="https://github.com/user-attachments/assets/fc549e78-6b68-42b9-a912-2b6d458ef86e" />
