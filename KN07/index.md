@@ -16,3 +16,5 @@ Example: A Kafka cluster (not a database).<br><br>
 start minikube <br>
 <img width="862" alt="image" src="https://github.com/user-attachments/assets/369dce26-f574-474a-bfbb-e559adf43e50" /><br>
 <img width="773" alt="image" src="https://github.com/user-attachments/assets/233490a4-ff3b-41e0-9c66-c646ffacaab2" /><br>
+![image](https://github.com/user-attachments/assets/bf3277af-66a3-48b6-9bb7-267fccd2704a)
+
