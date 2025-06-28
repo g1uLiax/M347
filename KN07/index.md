@@ -22,5 +22,6 @@ start minikube <br>
 ![image](https://github.com/user-attachments/assets/ab8dd1e3-113f-4adb-9092-816fe8b26f6b)
 ![image](https://github.com/user-attachments/assets/6a759140-386b-491a-b41c-775da16fe553)
 ![image](https://github.com/user-attachments/assets/c39bab58-a96d-4421-91f5-7b8495f696f5)
+<img width="362" alt="image" src="https://github.com/user-attachments/assets/d7f857b9-f685-4133-81dd-5c14b671bfcd" />
 
 
