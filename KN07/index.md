@@ -19,5 +19,6 @@ start minikube <br>
 ![image](https://github.com/user-attachments/assets/bf3277af-66a3-48b6-9bb7-267fccd2704a)
 ![image](https://github.com/user-attachments/assets/20883eae-4138-4fc4-a306-eeb2ce1413af)
 ![image](https://github.com/user-attachments/assets/da5c943d-2672-4765-ac4e-4966b7410a9c)
+![image](https://github.com/user-attachments/assets/ab8dd1e3-113f-4adb-9092-816fe8b26f6b)
 
 
