@@ -18,5 +18,6 @@ start minikube <br>
 <img width="773" alt="image" src="https://github.com/user-attachments/assets/233490a4-ff3b-41e0-9c66-c646ffacaab2" /><br>
 ![image](https://github.com/user-attachments/assets/bf3277af-66a3-48b6-9bb7-267fccd2704a)
 ![image](https://github.com/user-attachments/assets/20883eae-4138-4fc4-a306-eeb2ce1413af)
+![image](https://github.com/user-attachments/assets/da5c943d-2672-4765-ac4e-4966b7410a9c)
 
 
