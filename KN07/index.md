@@ -1,0 +1,13 @@
+## A
+Pod vs Replica:<br>
+A Pod runs one or more containers together. A Replica is a copy of a Pod, used to scale and keep apps available.<br><br>
+
+Service vs Deployment:<br>
+A Deployment manages how many Pod copies run. A Service gives a stable way to access Pods, even if their IPs change.<br><br>
+
+What does Ingress solve?<br>
+Ingress lets you access apps from outside the cluster (e.g., via URLs) and handles routing, HTTPS, and domain names.<br><br>
+
+What is a StatefulSet?<br>
+StatefulSet manages Pods with fixed names and storage, useful when identity and order matter.
+Example: A Kafka cluster (not a database).<br><br>
