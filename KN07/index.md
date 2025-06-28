@@ -11,3 +11,7 @@ Ingress lets you access apps from outside the cluster (e.g., via URLs) and handl
 What is a StatefulSet?<br>
 StatefulSet manages Pods with fixed names and storage, useful when identity and order matter.
 Example: A Kafka cluster (not a database).<br><br>
+
+## B
+start minikube <br>
+<img width="862" alt="image" src="https://github.com/user-attachments/assets/369dce26-f574-474a-bfbb-e559adf43e50" />
